@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>RegPage</title>
+	</head>
+	<body>
+		<h1>Registration</h1>
+		<a href="index.php">Back</a>
+		<form action="register.php" method="POST">
+			Username: <input type="text" name="UN" required/><br/>
+			Password: <input type="password" name="PW" required/><br/>
+			<input type="submit" value="Register"/>
+		</form>
+	</body>
+</html>
+		<?php
+			if($_SERVER["REQUEST_METHOD"] == "POST"){/				$username = mysql_real_escape_string($_POST['UN']);
+//				$password = mysql_real_escape_string($_POST['PW']);
+//				echo $username;
+//				echo $password;
+			}
+		?>
