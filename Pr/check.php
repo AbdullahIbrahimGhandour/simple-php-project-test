@@ -13,13 +13,13 @@
 		}
 		else
 		{
-			//echo "<script>alert('Incorrect password!');</script>";
-			header("location: login.php");
+			echo "<script>alert('Incorrect password!');</script>";
+			echo '<script>window.location.assign("login.php");</script>';
 		}
 	}
 	else
 	{
-		//echo "<script>alert('Incorrect username!');</script>";
-		header("location: login.php");
+		echo "<script>alert('Incorrect username!');</script>";
+		echo '<script>window.location.assign("register.php");</script>';
 	}
 ?>
