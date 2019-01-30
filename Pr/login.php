@@ -8,6 +8,7 @@
 		<form action="check.php" method="POST">
 			Username: <input type="text" name="UN" required/><br/>
 			Password: <input type="password" name="PW" required/><br/>
+            		<input type="hidden" name="H" value="2"/>
 			<input type="submit" value="Login"/>
 		</form>
 	</body>
