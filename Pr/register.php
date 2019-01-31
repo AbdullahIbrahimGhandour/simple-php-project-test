@@ -1,3 +1,8 @@
+<?php
+    session_start();
+    if($_SESSION['user'])
+        header("location: home.php");
+?>
 <html>
 	<head>
 		<title>RegPage</title>
